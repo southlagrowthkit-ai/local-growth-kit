@@ -1,7 +1,3 @@
 # Keep private sales operations out of the public website repository
-prospects.csv
-OFFER.md
-OUTREACH.md
-SAMPLE_DELIVERABLE.md
-INTAKE.md
-README.md
+*.csv
+*.md
