@@ -1,3 +1,4 @@
 # Keep private sales operations out of the public website repository
 *.csv
 *.md
+/private_dashboard/
