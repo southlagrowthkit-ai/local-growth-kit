@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Local Growth Kit content system</title>
+  <desc id="desc">Three luminous document panels for profile, content, and reviews on a dark studio background.</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="46%" r="55%">
+      <stop offset="0" stop-color="#243c68" stop-opacity=".9"/>
+      <stop offset=".48" stop-color="#0b1220" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#24262b"/><stop offset="1" stop-color="#101114"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff"/><stop offset="1" stop-color="#e9edf5"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="30"/><feOffset dy="28"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .65 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="#000"/>
+  <ellipse cx="800" cy="440" rx="690" ry="520" fill="url(#halo)"/>
+  <g filter="url(#shadow)">
+    <g transform="translate(260 250) rotate(-7 210 250)">
+      <rect width="420" height="500" rx="30" fill="url(#glass)" stroke="#444850"/>
+      <text x="42" y="62" fill="#58a6ff" font-family="system-ui,sans-serif" font-size="20" font-weight="650">PROFILE</text>
+      <text x="42" y="126" fill="#fff" font-family="system-ui,sans-serif" font-size="38" font-weight="650">Be found clearly.</text>
+      <g fill="#51545b"><rect x="42" y="180" width="315" height="13" rx="7"/><rect x="42" y="214" width="266" height="13" rx="7"/><rect x="42" y="248" width="294" height="13" rx="7"/></g>
+      <g fill="none" stroke="#58a6ff" stroke-width="3"><circle cx="62" cy="340" r="18"/><circle cx="62" cy="397" r="18"/></g>
+      <path d="M53 340l7 7 13-16M53 397l7 7 13-16" fill="none" stroke="#58a6ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(590 135)">
+      <rect width="420" height="560" rx="30" fill="url(#paper)" stroke="#fff"/>
+      <text x="42" y="64" fill="#006edb" font-family="system-ui,sans-serif" font-size="20" font-weight="650">CONTENT</text>
+      <text x="42" y="132" fill="#18191c" font-family="system-ui,sans-serif" font-size="40" font-weight="650">Ready to post.</text>
+      <rect x="42" y="182" width="336" height="160" rx="18" fill="#dfe8f7"/>
+      <circle cx="142" cy="262" r="54" fill="#8bb8f1"/><path d="M212 301l54-66 71 92H185z" fill="#4c83c3"/>
+      <g fill="#bdc1c8"><rect x="42" y="388" width="314" height="13" rx="7"/><rect x="42" y="422" width="270" height="13" rx="7"/><rect x="42" y="456" width="326" height="13" rx="7"/></g>
+      <rect x="42" y="500" width="126" height="34" rx="17" fill="#0071e3"/>
+    </g>
+    <g transform="translate(930 235) rotate(7 210 250)">
+      <rect width="420" height="500" rx="30" fill="url(#glass)" stroke="#444850"/>
+      <text x="42" y="62" fill="#58a6ff" font-family="system-ui,sans-serif" font-size="20" font-weight="650">REVIEWS</text>
+      <text x="42" y="126" fill="#fff" font-family="system-ui,sans-serif" font-size="38" font-weight="650">Reply with care.</text>
+      <g transform="translate(42 182)">
+        <g fill="#ffca45"><path d="M14 0l4 10 11 1-8 7 3 11-10-6-10 6 3-11-8-7 11-1z"/><path transform="translate(40)" d="M14 0l4 10 11 1-8 7 3 11-10-6-10 6 3-11-8-7 11-1z"/><path transform="translate(80)" d="M14 0l4 10 11 1-8 7 3 11-10-6-10 6 3-11-8-7 11-1z"/><path transform="translate(120)" d="M14 0l4 10 11 1-8 7 3 11-10-6-10 6 3-11-8-7 11-1z"/><path transform="translate(160)" d="M14 0l4 10 11 1-8 7 3 11-10-6-10 6 3-11-8-7 11-1z"/></g>
+      </g>
+      <g fill="#51545b"><rect x="42" y="252" width="315" height="13" rx="7"/><rect x="42" y="286" width="284" height="13" rx="7"/><rect x="42" y="320" width="298" height="13" rx="7"/></g>
+      <rect x="42" y="385" width="336" height="70" rx="15" fill="#202f46" stroke="#345780"/>
+      <circle cx="74" cy="420" r="12" fill="#58a6ff"/><rect x="101" y="410" width="218" height="10" rx="5" fill="#657892"/><rect x="101" y="432" width="160" height="8" rx="4" fill="#465568"/>
+    </g>
+  </g>
+</svg>
