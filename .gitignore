@@ -2,3 +2,4 @@
 *.csv
 *.md
 /private_dashboard/
+/consumer_intake/
