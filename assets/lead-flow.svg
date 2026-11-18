@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Local Growth Kit lead flow</title>
+  <desc id="desc">A customer request is checked against provider-defined qualification criteria, then routed exclusively to one provider.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071411"/><stop offset="1" stop-color="#12251d"/></linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#baff63"/><stop offset="1" stop-color="#73e6a2"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000" flood-opacity=".35"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0l12 6-12 6z" fill="#baff63"/></marker>
+  </defs>
+  <rect width="1600" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="1380" cy="80" r="330" fill="#baff63" opacity=".045"/>
+  <circle cx="190" cy="850" r="280" fill="#73e6a2" opacity=".04"/>
+  <text x="108" y="126" fill="#baff63" font-family="Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4">THE PRIVATE PILOT FLOW</text>
+  <text x="108" y="190" fill="#f2f6f3" font-family="Helvetica, sans-serif" font-size="48" font-weight="700">One request. Clear criteria. One provider.</text>
+  <g filter="url(#shadow)">
+    <rect x="110" y="300" width="380" height="390" rx="32" fill="#f7f9f6"/>
+    <rect x="610" y="300" width="380" height="390" rx="32" fill="#f7f9f6"/>
+    <rect x="1110" y="300" width="380" height="390" rx="32" fill="#f7f9f6"/>
+  </g>
+  <g font-family="Helvetica, sans-serif">
+    <circle cx="174" cy="366" r="25" fill="#dfffc0"/><text x="174" y="374" text-anchor="middle" fill="#17301f" font-size="22" font-weight="700">1</text>
+    <text x="154" y="445" fill="#0d1914" font-size="32" font-weight="700">Customer request</text>
+    <text x="154" y="498" fill="#53625a" font-size="21">Intentional request</text><text x="154" y="536" fill="#53625a" font-size="21">Contact + service details</text><text x="154" y="574" fill="#53625a" font-size="21">Permission to share</text>
+    <rect x="154" y="615" width="206" height="9" rx="5" fill="url(#lime)"/>
+
+    <circle cx="674" cy="366" r="25" fill="#dfffc0"/><text x="674" y="374" text-anchor="middle" fill="#17301f" font-size="22" font-weight="700">2</text>
+    <text x="654" y="445" fill="#0d1914" font-size="32" font-weight="700">Qualification</text>
+    <text x="654" y="498" fill="#53625a" font-size="21">Service + area match</text><text x="654" y="536" fill="#53625a" font-size="21">Valid and complete</text><text x="654" y="574" fill="#53625a" font-size="21">No prior delivery</text>
+    <path d="M654 619l20 20 42-46" fill="none" stroke="#43a870" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="1174" cy="366" r="25" fill="#dfffc0"/><text x="1174" y="374" text-anchor="middle" fill="#17301f" font-size="22" font-weight="700">3</text>
+    <text x="1154" y="445" fill="#0d1914" font-size="32" font-weight="700">One provider</text>
+    <text x="1154" y="498" fill="#53625a" font-size="21">Exclusive delivery</text><text x="1154" y="536" fill="#53625a" font-size="21">48-hour review</text><text x="1154" y="574" fill="#53625a" font-size="21">Written decision</text>
+    <circle cx="1201" cy="631" r="22" fill="#17301f"/><circle cx="1201" cy="620" r="8" fill="#baff63"/><path d="M1187 646c3-16 25-16 28 0" fill="#baff63"/>
+  </g>
+  <path d="M512 495h52" stroke="#baff63" stroke-width="6" stroke-linecap="round"/><path d="M582 495l-24-14v28z" fill="#baff63"/>
+  <path d="M1012 495h52" stroke="#baff63" stroke-width="6" stroke-linecap="round"/><path d="M1082 495l-24-14v28z" fill="#baff63"/>
+  <text x="800" y="810" text-anchor="middle" fill="#9eb0a6" font-family="Helvetica, sans-serif" font-size="22">No intake launches until a provider agrees in writing.</text>
+</svg>
